@@ -1,0 +1,1 @@
+render partial: "puzzle.json.jb", locals: {puzzle: @puzzle}

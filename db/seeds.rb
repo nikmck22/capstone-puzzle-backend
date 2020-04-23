@@ -5,3 +5,21 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'csv'
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'puzzles_info.csv'))
+csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  t = Puzzle.new
+  t.name = row['name']
+  t.description = row['description']
+  t.piece_id = row['piece_id']
+  t.format_id = row['format_id']
+  t.img_id = row['img_id']
+  t.rating_id = row['rating_id']
+  t.save
+  puts "#{t.name}, #{t.description} saved"
+end
+
+puts "There are now #{Puzzle.count} rows in the puzzles table"
+

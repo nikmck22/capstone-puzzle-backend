@@ -1,1 +1,3 @@
-{message: "hello"}
+@puzzles.map do |puzzle|
+  render partial: "puzzle.json.jb", locals: {puzzle: puzzle}
+end
