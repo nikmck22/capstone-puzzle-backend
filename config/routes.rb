@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     get "/puzzles" => "puzzles#index"
     post "/puzzles" => "puzzles#create"
     get "/puzzles/:id" => "puzzles#show"
+    patch "/puzzles/:id" => "puzzles#update"
+    delete "/puzzles/:id" => "puzzles#destroy"
   end
 
 end
