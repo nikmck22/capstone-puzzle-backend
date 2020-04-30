@@ -1,26 +1,26 @@
-name,description,pieces,format,image_url,rating_id,category
+name,description,pieces,format,img_url,rating_id,category
 Space & Planets,"Lots of space, like it's way out there",250,Vertical ,https://m.media-amazon.com/images/I/711o9YxjdDL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
 Hot Air Balloons,"It's getting hot in here, like in a hot air balloon. It flies",500,Portrait,https://m.media-amazon.com/images/I/51lvVBjgjBL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
 Jellyfish,Don't touch the spicy sponge!,1000,Panoramic,https://m.media-amazon.com/images/I/71DZu-362AL._AC_UL640_FMwebp_QL65_.jpg,,Animals
 Tropical Flamingoes,These are just pink Florida chickens,3000,Square,https://m.media-amazon.com/images/I/91Fa7R1FnIL._AC_UL640_FMwebp_QL65_.jpg,,Animals
-Beer Collection,Hops on hops on hops,5000,Vertical ,https://m.media-amazon.com/images/I/71eWu1ds3QL._AC_UL640_FMwebp_QL65_.jpg,,Food
+Beer Collection,Hops on hops on hops,5000,Vertical,https://m.media-amazon.com/images/I/71eWu1ds3QL._AC_UL640_FMwebp_QL65_.jpg,,Food
 Valentine Treat,Treat yo self. Or someone else. Whatever,250,Portrait,https://cdn.unifiedcommerce.com/content/navigation/large/valentinesdayholiday.jpg,,Holidays
 Feathers,Just a bunch of feathers. It's pretty. ,500,Panoramic,https://m.media-amazon.com/images/I/81JHkpxphWL._AC_UL640_FMwebp_QL65_.jpg,,Art
 Starry Night,A famous painting by a famous guy named Vincent Van Gough,1000,Square,https://m.media-amazon.com/images/I/81Sez1kTm9L._AC_UL640_FMwebp_QL65_.jpg,,Art
 Flower Field,You thought your allergies were bad now?,3000,Portrait,https://m.media-amazon.com/images/I/71kvo4Op6mL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
-Taj Mahal,No vacancy. I've been put on the waiting list,5000,Vertical ,https://m.media-amazon.com/images/I/51ASHxf8FWL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
+Taj Mahal,No vacancy. I've been put on the waiting list,5000,Vertical,https://m.media-amazon.com/images/I/51ASHxf8FWL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
 Quiet Beach,It's cause there is coronavirus,250,Portrait,https://m.media-amazon.com/images/I/61khWoFukqL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
-Rainbow Butterflies,Butterflies who are cousins to unicorns. Lots of rainbows involved,500,Vertical ,https://m.media-amazon.com/images/I/81ztn5iPYEL._AC_UL640_FMwebp_QL65_.jpg,,Animals
+Rainbow Butterflies,Butterflies who are cousins to unicorns. Lots of rainbows involved,500,Vertical,https://m.media-amazon.com/images/I/81ztn5iPYEL._AC_UL640_FMwebp_QL65_.jpg,,Animals
 Lily Pond,A famous painting by a famous guy named Claude Monet,1000,Portrait,https://cdn11.bigcommerce.com/s-do0ookap9x/images/stencil/1280x1280/products/4409/5433/apidicigu__63949.1504674899.jpg?c=2&imbypass=on&imbypass=on,,Art
 Dogs Galore!,The best animal on earth. Don't @ me. ,3000,Panoramic,https://cdn.ravensburger.de/images/produktseiten/240/15633_2.jpg,,Animals
 A Sunday on La Grande,A famous painting by a famous guy named Georges Seurat,1000,Square,https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTm226EuKxcYJrWoxKfBJQqJ6xwhPBG-N1QtT6dW8o-j2IXwP1vW3WmhWKNiuMT08QBi4wtG2dGswiPQ63Zq_xUsBF_bl8SJXJS1bSF0zh2E0ZbtksQ4535vA&usqp=CAE,,Art
-Irises,A famous painting by a famous guy named Vincent Van Gough,250,Vertical ,https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQKspJsTAMqnF5W01HkR88zpHdiVnA2Nvf5QCb9Bybm6G_S1Js56xY56a9ahHxe0NGkMPyXg6wJw_LQn0lDX_TGYu0s5-lXg4GXPp85aqDcEq6uL2pLu_ga8Q&usqp=CAE,,Art
-Summer Birdhouse,Even birds have summer houses? I'm in the wrong profession...,500,Vertical ,https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR7swg3MoiT_PfrndJ7DNLINQHQocHaH11jNUKlEZmQPCfvlNEF4rVZzL9ERJ9tW2wWXKQgJdA3R-XF1qNGZ_5th-vgJsjNa9GvIqOVeQPd&usqp=CAE,,Animals
-Cupcakes,Similar to 'Valentine Treat' except these are probably better. You don't need no man to get you a cupcake!,1000,Vertical ,https://cdn.unifiedcommerce.com/content/product/small/8300-0519.jpg,,Food
-Popsicles,The red-headed step child to ice cream,3000,Vertical ,https://cdn.unifiedcommerce.com/content/product/small/6100-0520.jpg,,Food
+Irises,A famous painting by a famous guy named Vincent Van Gough,250,Vertical,https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQKspJsTAMqnF5W01HkR88zpHdiVnA2Nvf5QCb9Bybm6G_S1Js56xY56a9ahHxe0NGkMPyXg6wJw_LQn0lDX_TGYu0s5-lXg4GXPp85aqDcEq6uL2pLu_ga8Q&usqp=CAE,,Art
+Summer Birdhouse,Even birds have summer houses? I'm in the wrong profession...,500,Vertical,https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR7swg3MoiT_PfrndJ7DNLINQHQocHaH11jNUKlEZmQPCfvlNEF4rVZzL9ERJ9tW2wWXKQgJdA3R-XF1qNGZ_5th-vgJsjNa9GvIqOVeQPd&usqp=CAE,,Animals
+Cupcakes,Similar to 'Valentine Treat' except these are probably better. You don't need no man to get you a cupcake!,1000,Vertical,https://cdn.unifiedcommerce.com/content/product/small/8300-0519.jpg,,Food
+Popsicles,The red-headed step child to ice cream,3000,Vertical,https://cdn.unifiedcommerce.com/content/product/small/6100-0520.jpg,,Food
 Colorful Candies,Candies. That are colorful. They probably had something to do with those 'Rainbow Butterflies',5000,Portrait,https://www.springbok-puzzles.com/v/vspfiles/photos/41-07123-1.jpg?v-cache=1574857713,,Food
 Retro Refreshments,These are probably really flat by now...,250,Panoramic,https://www.springbok-puzzles.com/v/vspfiles/photos/33-10835-1.jpg?v-cache=1512994570,,Food
 Easter Eggs,"Bunnies don't lay eggs, yet here we are",500,Square,https://cdn10.bigcommerce.com/s-gyhhtwx4/products/2998/images/7171/079346022137_front_1500__22368.1580318193.190.250.jpg?c=2,,Holidays
 Decorating the Tree,No one ever helps me decorate the damn tree. Next year I'm only doing a Hannukah bush,1000,Square,https://cdn.shopify.com/s/files/1/2100/2891/products/1527_decorating_the_tree_1200_540x.jpg?v=1574794133,,Holidays
 Spooky Night,Halloween is one of the best holidays. Pumpkins taste awful but they're fun to smash,3000,Portrait,https://cdn.unifiedcommerce.com/content/navigation/large/halloweenpuzzles.jpg,,Holidays
-Independence Day Parade,Fireworks. Hot dogs. Baseball. That kind of stuff. ,5000,Vertical ,https://cdn.unifiedcommerce.com/content/product/small/796780395190.jpg,,Holidays
+Independence Day Parade,Fireworks. Hot dogs. Baseball. That kind of stuff. ,5000,Vertical,https://cdn.unifiedcommerce.com/content/product/small/796780395190.jpg,,Holidays

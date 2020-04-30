@@ -37,9 +37,9 @@ class Api::PuzzlesController < ApplicationController
     @puzzle.img_url = params[:img_url] || @puzzle.img_url
     @puzzle.rating_id = params[:rating_id] || @puzzle.rating_id
     @puzzle.category = params[:category] || @puzzle.category
-    # @puzzle.save!
-    # render "show.json.jb"
-    render json: {message: "thanks, but it's not saved yet!"}
+    @puzzle.save!
+    render "show.json.jb"
+    # render json: {message: "thanks, but it's not saved yet!"}
   end
 
   def destroy
