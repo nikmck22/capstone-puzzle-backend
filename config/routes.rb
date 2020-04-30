@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     get "/puzzles/:id" => "puzzles#show"
     patch "/puzzles/:id" => "puzzles#update"
     delete "/puzzles/:id" => "puzzles#destroy"
+
+    get "/users" => "users#index"
   end
 
 end
