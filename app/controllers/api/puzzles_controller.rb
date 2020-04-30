@@ -13,7 +13,12 @@ class Api::PuzzlesController < ApplicationController
   def create
     @puzzle = Puzzle.new(
       name: params[:name],
-      description: params[:description]
+      description: params[:description],
+      pieces: params[:pieces],
+      format: params[:format],
+      img_url: params[:img_url],
+      rating_id: params[:rating_id],
+      category: params[:category]
     )
     # render json: {message: "thanks, but it's not saved yet!"}
     if @puzzle.save!
@@ -27,9 +32,11 @@ class Api::PuzzlesController < ApplicationController
     @puzzle = Puzzle.find_by(id: params[:id])
     @puzzle.name = params[:name] || @puzzle.name
     @puzzle.description = params[:description] || @puzzle.description
-    @puzzle.piece_id = params[:piece_id] || @puzzle.piece_id
-    @puzzle.format_id = params[:format_id] || @puzzle.format_id
-    @puzzle.img_id = params[:img_id] || @puzzle.img_id
+    @puzzle.pieces = params[:pieces] || @puzzle.pieces
+    @puzzle.format = params[:format] || @puzzle.format
+    @puzzle.img_url = params[:img_url] || @puzzle.img_url
+    @puzzle.rating_id = params[:rating_id] || @puzzle.rating_id
+    @puzzle.category = params[:category] || @puzzle.category
     # @puzzle.save!
     # render "show.json.jb"
     render json: {message: "thanks, but it's not saved yet!"}

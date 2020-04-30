@@ -1,0 +1,2 @@
+class PuzzleRating < ApplicationRecord
+end

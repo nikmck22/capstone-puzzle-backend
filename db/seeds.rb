@@ -13,10 +13,11 @@ csv.each do |row|
   t = Puzzle.new
   t.name = row['name']
   t.description = row['description']
-  t.piece_id = row['piece_id']
-  t.format_id = row['format_id']
-  t.img_id = row['img_id']
+  t.pieces = row['pieces']
+  t.format = row['format']
+  t.img_url = row['img_url']
   t.rating_id = row['rating_id']
+  t.category = row['category']
   t.save
   puts "#{t.name}, #{t.description} saved"
 end
