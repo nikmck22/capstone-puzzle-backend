@@ -4,6 +4,6 @@ class User < ApplicationRecord
   has_many :ratings, through: :puzzle_ratings
   has_many :puzzles, through: :puzzle_ratings
 
-  # has_secure_password
-  # validates :email, presence: true, uniqueness: true
+  has_secure_password
+  validates :email, presence: true, uniqueness: true
 end
