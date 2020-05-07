@@ -10,6 +10,8 @@ Rails.application.routes.draw do
     patch "/puzzles/:id" => "puzzles#update"
     delete "/puzzles/:id" => "puzzles#destroy"
 
+    post "/puzzle_ratings" => "puzzle_ratings#create"
+
     get "/users" => "users#index"
     post "/users" => "users#create"
 

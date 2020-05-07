@@ -21,6 +21,11 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user
 
+  # DEFINE current_puzzle for puzzle rating controller? is necessary??
+  # def current_puzzle
+
+  # end
+
   def authenticate_user
     unless current_user
       render json: {}, status: :unauthorized
