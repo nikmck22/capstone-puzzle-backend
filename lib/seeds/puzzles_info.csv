@@ -1,4 +1,4 @@
-name,description,pieces,format,img_url,rating_id,category
+name,description,pieces,format,img_url,rating_number,category
 Space & Planets,"Lots of space, like it's way out there",250,Vertical ,https://m.media-amazon.com/images/I/711o9YxjdDL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
 Hot Air Balloons,"It's getting hot in here, like in a hot air balloon. It flies",500,Portrait,https://m.media-amazon.com/images/I/51lvVBjgjBL._AC_UL640_FMwebp_QL65_.jpg,,Scenery
 Jellyfish,Don't touch the spicy sponge!,1000,Panoramic,https://m.media-amazon.com/images/I/71DZu-362AL._AC_UL640_FMwebp_QL65_.jpg,,Animals

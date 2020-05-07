@@ -2,7 +2,7 @@ class Api::PuzzleRatingsController < ApplicationController
 
   def create
     @puzzle_rating = PuzzleRating.new(
-      rating_id: params[:name],
+      rating_number: params[:name],
       # puzzle_id: current_puzzle.id,
       user_id: current_user.id
     )

@@ -17,7 +17,7 @@ class Api::PuzzlesController < ApplicationController
       pieces: params[:pieces],
       format: params[:format],
       img_url: params[:img_url],
-      rating_id: params[:rating_id],
+      rating_number: params[:rating_number],
       category: params[:category]
     )
     # render json: {message: "thanks, but it's not saved yet!"}
@@ -35,7 +35,7 @@ class Api::PuzzlesController < ApplicationController
     @puzzle.pieces = params[:pieces] || @puzzle.pieces
     @puzzle.format = params[:format] || @puzzle.format
     @puzzle.img_url = params[:img_url] || @puzzle.img_url
-    @puzzle.rating_id = params[:rating_id] || @puzzle.rating_id
+    @puzzle.rating_number = params[:rating_number] || @puzzle.rating_number
     @puzzle.category = params[:category] || @puzzle.category
     @puzzle.save!
     render "show.json.jb"

@@ -5,7 +5,7 @@
   pieces: puzzle.pieces,
   format: puzzle.format,
   img_url: puzzle.img_url,
-  rating_id: puzzle.rating_id,
+  rating_number: puzzle.rating_number,
   category: puzzle.category
 }
 

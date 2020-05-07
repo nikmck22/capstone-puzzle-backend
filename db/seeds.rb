@@ -20,7 +20,7 @@ require 'csv'
 #   t.pieces = row['pieces']
 #   t.format = row['format']
 #   t.img_url = row['img_url']
-#   t.rating_id = row['rating_id']
+#   t.rating_number = row['rating_number']
 #   t.category = row['category']
 #   t.save
 #   # puts "#{t.name}, #{t.description} saved"
