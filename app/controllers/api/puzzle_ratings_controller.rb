@@ -8,7 +8,7 @@ class Api::PuzzleRatingsController < ApplicationController
 
     @puzzle_rating = PuzzleRating.new(
       rating_number: params[:rating_number],
-      puzzle_id: 104,
+      puzzle_id: params[:puzzle_id],
       user_id: current_user.id
     )
     render json: {message: "thanks, but it's not saved yet!"}

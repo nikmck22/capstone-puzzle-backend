@@ -1,1 +1,10 @@
-render partial: "puzzle.json.jb", locals: {puzzle: @puzzle}
+{
+  id: @puzzle.id,
+  name: @puzzle.name,
+  description: @puzzle.description,
+  pieces: @puzzle.pieces,
+  format: @puzzle.format,
+  img_url: @puzzle.img_url,
+  rating_number: @puzzle.rating_number,
+  category: @puzzle.category
+}
