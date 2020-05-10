@@ -10,6 +10,14 @@ Rails.application.routes.draw do
     patch "/puzzles/:id" => "puzzles#update"
     delete "/puzzles/:id" => "puzzles#destroy"
 
+    get "/carted_puzzles" => "carted_puzzles#index"
+    post "/carted_puzzles" => "carted_puzzles#create"
+    delete "/carted_puzzles/:id" => "carted_puzzles#destroy"
+
+    post "/orders" => "orders#create"
+    get "/orders" => "orders#index"
+    get "/orders/:id" => "orders#show"
+
     post "/puzzle_ratings" => "puzzle_ratings#create"
 
     get "/users" => "users#index"
@@ -18,8 +26,6 @@ Rails.application.routes.draw do
     post "/sessions" => "sessions#create"  
 
     post "/contacts" => "contacts#create"
-
-    get "/carted_puzzles" => "carted_puzzles#index"
   end
 
 end

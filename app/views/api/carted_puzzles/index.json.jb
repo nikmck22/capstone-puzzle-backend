@@ -1,0 +1,10 @@
+@carted_puzzles.map do |carted_puzzle|
+  {
+    id: carted_puzzle.id,
+    status: carted_puzzle.status,
+    user_id: carted_puzzle.user_id,
+    puzzle_id: carted_puzzle.puzzle_id,
+    order_id: carted_puzzle.order_id
+  }
+end
+
