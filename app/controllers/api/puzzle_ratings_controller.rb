@@ -1,7 +1,7 @@
 class Api::PuzzleRatingsController < ApplicationController
 
   def create
-  # @puzzle_rating = Puzzle.where(user_id: current_user.id).where(id: :puzzle.id)
+  # @puzzle = Puzzle.where(user_id: current_user.id)
   
 
     @puzzle_rating = PuzzleRating.new(
@@ -11,9 +11,12 @@ class Api::PuzzleRatingsController < ApplicationController
     )
     @puzzle_rating.save!
 
-    @puzzle = Puzzle.find_by(id: puzzle_rating.puzzle_id)
-    @puzzle.update(rating_number: puzzle_rating.rating_number)
-    @puzzle.save!
+    @puzzle = Puzzle.find_by(id: @puzzle_rating.puzzle_id)
+
+    @puzzle.update(rating_number: @puzzle_rating.rating_number)
+
+    # @puzzle = Puzzle.find_by(id: puzzle_rating.puzzle_id).update(rating_number: puzzle_rating.rating_number)
+    # @puzzle.save!
 
     render "show.json.jb"
 
