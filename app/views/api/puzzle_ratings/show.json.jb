@@ -1,0 +1,12 @@
+{
+  id: @puzzle_rating.id,
+  rating_number: @puzzle_rating.rating_number,
+  user_id: @puzzle_rating.user_id,
+  puzzle_id: @puzzle_rating.puzzle_id
+}
+
+
+# rating_number: params[:rating_number],
+# puzzle_id: params[:puzzle_id],
+# user_id: current_user.id
+# )

@@ -4,7 +4,9 @@
     status: carted_puzzle.status,
     user_id: carted_puzzle.user_id,
     puzzle_id: carted_puzzle.puzzle_id,
-    order_id: carted_puzzle.order_id
+    order_id: carted_puzzle.order_id,
+    # puzzle: Puzzle.find_by(id: carted_puzzle.puzzle_id),
+    puzzle: carted_puzzle.puzzle
   }
 end
 

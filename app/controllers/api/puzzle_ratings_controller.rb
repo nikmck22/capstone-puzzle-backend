@@ -1,25 +1,42 @@
 class Api::PuzzleRatingsController < ApplicationController
 
   def create
-    #@rating_number = current_user.puzzles.where(puzzle_id: params[:puzzle_id])
-    # if rating_number < 1 && rating_number > 5
-    #   error
-    # end
+  # @puzzle_rating = Puzzle.where(user_id: current_user.id).where(id: :puzzle.id)
+  
 
     @puzzle_rating = PuzzleRating.new(
       rating_number: params[:rating_number],
       puzzle_id: params[:puzzle_id],
       user_id: current_user.id
     )
-    render json: {message: "thanks, but it's not saved yet!"}
-    # if @puzzle_rating.save!
-    #   render "show.json.jb"
-    # else 
-    #   render json: {errors: @puzzle_rating.errors.full_messages}, status: :unprocessable_entity
-    # end
+    @puzzle_rating.save!
+
+    @puzzle = Puzzle.find_by(id: puzzle_rating.puzzle_id)
+    @puzzle.update(rating_number: puzzle_rating.rating_number)
+    @puzzle.save!
+
+    render "show.json.jb"
+
   end
 end
 
+    # puzzle: Puzzle.find_by(id: carted_puzzle.puzzle_id),
+
+# def create
+#   @carted_puzzles = CartedPuzzle.where(user_id: current_user.id).where(status: 'carted')
+  
+
+#   @order = Order.new(
+#     user_id: current_user.id,
+#   )
+
+#   @order.save
+#   @carted_puzzles.update_all(status: 'ordered', order_id: @order.id)
+  
+#   render "show.json.jb"
+# t.integer "rating_number"
+# t.integer "puzzle_id"
+# t.integer "user_id"
 
 
 # !!!STACKOVERFLOW!!!
