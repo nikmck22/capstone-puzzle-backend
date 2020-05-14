@@ -18,7 +18,7 @@ class Api::CartedPuzzlesController < ApplicationController
   def destroy
     @carted_puzzle = CartedPuzzle.find_by(id: params[:id])
     @carted_puzzle.update(status: 'removed')
-    render 'show.json.jb'
+    render json: {message: "successfully deleted from cart"}
   end
 end
 
