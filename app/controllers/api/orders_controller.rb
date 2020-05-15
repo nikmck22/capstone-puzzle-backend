@@ -19,7 +19,7 @@ class Api::OrdersController < ApplicationController
       user_id: current_user.id,
     )
 
-    @order.save
+    @order.save!
     @carted_puzzles.update_all(status: 'ordered', order_id: @order.id)
     
     render "show.json.jb"
