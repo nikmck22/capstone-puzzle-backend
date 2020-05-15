@@ -2,6 +2,6 @@
   {
     id: order.id,
     user_id: order.user_id,
-    # puzzle: order.puzzle
+    puzzle_id: order.puzzle_id
   }
 end
