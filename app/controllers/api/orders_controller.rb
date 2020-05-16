@@ -17,6 +17,7 @@ class Api::OrdersController < ApplicationController
 
     @order = Order.new(
       user_id: current_user.id,
+      puzzle_id: params[:puzzle_id]
     )
 
     @order.save

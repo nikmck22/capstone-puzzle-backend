@@ -1,6 +1,8 @@
 @orders.map do |order|
   {
     id: order.id,
-    user_id: order.user_id
+    user_id: order.user_id,
+    puzzle_id: order.puzzle_id,
+    puzzle: Puzzle.find_by(id: order.puzzle_id)
   }
 end
