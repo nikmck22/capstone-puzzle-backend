@@ -17,11 +17,22 @@ class Api::PuzzleRatingsController < ApplicationController
 
     # @puzzle = Puzzle.find_by(id: puzzle_rating.puzzle_id).update(rating_number: puzzle_rating.rating_number)
     # @puzzle.save!
+    
+    # @puzzle_ratings = PuzzleRating.find_by(puzzle_id: params[:puzzle_id])
+
+    # total = 0
+    # average = 0
+    # @puzzle_ratings.each do |puzzle_rating|
+    #   total = total + puzzle_rating.rating_number
+    #   average = total/puzzle_ratings.length
+    # end  
 
     render "show.json.jb"
 
   end
 end
+
+
 
     # puzzle: Puzzle.find_by(id: carted_puzzle.puzzle_id),
 
